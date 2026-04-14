@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin · Portfolio CMS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="bg-glow g1"></div>
+<div class="bg-glow g2"></div>
+
+<nav>
+  <div class="nav-brand">Portfolio <span>Admin</span></div>
+  <a href="/" style="font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--muted2);text-decoration:none;display:flex;align-items:center;gap:6px;padding:6px 14px;border:1px solid var(--border);border-radius:7px;transition:all .2s;" onmouseover="this.style.color='var(--text)';this.style.borderColor='var(--border2)'" onmouseout="this.style.color='var(--muted2)';this.style.borderColor='var(--border)'">🌐 View Site →</a>
+</nav>
+
+<div class="aw">
+  <div class="a-top">
+    <div>
+      <div class="a-h">Dashboard <span>CMS</span></div>
+      <div class="a-sub">Node.js · Express · JSON Database · REST API</div>
+    </div>
+    <div class="db-badge"><span class="dbdot"></span>&nbsp;DB Connected &nbsp;·&nbsp; <span id="db-docs">–</span> docs &nbsp;·&nbsp; <span id="db-cols">–</span> collections</div>
+  </div>
+
+  <div class="stats-row" id="a-stats"></div>
+
+  <div class="al">
+    <div class="aside">
+      <div class="asl">Collections</div>
+      <button class="asb active" id="sb-profile"    onclick="openColl('profile')">   <span class="asi">👤</span>Profile</button>
+      <button class="asb"        id="sb-stats"      onclick="openColl('stats')">    <span class="asi">📊</span>Stats</button>
+      <button class="asb"        id="sb-skills"     onclick="openColl('skills')">   <span class="asi">⚡</span>Skills</button>
+      <button class="asb"        id="sb-projects"   onclick="openColl('projects')"> <span class="asi">🚀</span>Projects</button>
+      <button class="asb"        id="sb-experience" onclick="openColl('experience')"><span class="asi">💼</span>Experience</button>
+      <button class="asb"        id="sb-education"  onclick="openColl('education')"> <span class="asi">🎓</span>Education</button>
+      <button class="asb"        id="sb-contact"    onclick="openColl('contact')">  <span class="asi">✉️</span>Contact</button>
+      <div class="asdiv"></div>
+      <div class="asl">Actions</div>
+      <button class="asb" onclick="exportDB()">   <span class="asi">⬇</span>Export JSON</button>
+      <button class="asb danger" onclick="resetDB()"><span class="asi">↺</span>Reset Defaults</button>
+    </div>
+
+    <div class="ac">
+      <div class="ac-head">
+        <div class="ac-title" id="ac-title">👤 profile</div>
+        <div class="ac-meta"  id="ac-meta">1 document</div>
+      </div>
+      <div class="ac-body" id="ac-body"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Modal -->
+<div class="mo" id="doc-modal">
+  <div class="md">
+    <div class="mh">
+      <div class="mt" id="m-title">Edit Document</div>
+      <button class="mc" onclick="closeModal('doc-modal')">✕</button>
+    </div>
+    <div class="mb">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:.68rem;color:var(--muted);margin-bottom:12px;letter-spacing:.5px">EDIT AS JSON</div>
+      <textarea class="ja" id="m-json" spellcheck="false"></textarea>
+      <div class="jerr" id="m-err">⚠ Invalid JSON — check your syntax</div>
+    </div>
+    <div class="mf">
+      <button class="bsec" onclick="closeModal('doc-modal')">Cancel</button>
+      <button class="bs"   onclick="saveModalDoc()">Save Document</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>

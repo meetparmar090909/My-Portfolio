@@ -1,0 +1,265 @@
+{
+  "profile": {
+    "firstname": "Meet",
+    "lastname": "Parmar",
+    "title": "Full-Stack Developer",
+    "bio": "I build high-performance web applications using React, Node.js, ASP.NET C# and modern JavaScript. Passionate about clean architecture, great UX and shipping products that scale.",
+    "tag": "Open to Opportunities · Available for Abroad",
+    "greeting": "Hi there, I'm",
+    "resume": "#",
+    "github": "https://github.com",
+    "_id": "profile_1"
+  },
+  "stats": [
+    {
+      "num": "3+",
+      "label": "Years Experience",
+      "_id": "stats_1"
+    },
+    {
+      "num": "20+",
+      "label": "Projects Delivered",
+      "_id": "stats_2"
+    },
+    {
+      "num": "2",
+      "label": "Tech Stacks",
+      "_id": "stats_3"
+    },
+    {
+      "num": "∞",
+      "label": "Lines of Code",
+      "_id": "stats_4"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "icon": "⚛️",
+      "color": "#5eead4",
+      "items": [
+        "React.js",
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "AJAX",
+        "jQuery",
+        "Bootstrap",
+        "Responsive Design"
+      ],
+      "_id": "skills_1"
+    },
+    {
+      "category": "Backend",
+      "icon": "🖥️",
+      "color": "#a78bfa",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "ASP.NET Core",
+        "C#",
+        "REST APIs",
+        "MVC Architecture",
+        "SignalR"
+      ],
+      "_id": "skills_2"
+    },
+    {
+      "category": "Database",
+      "icon": "🗄️",
+      "color": "#f472b6",
+      "items": [
+        "Microsoft SQL Server",
+        "MySQL",
+        "MongoDB",
+        "Entity Framework",
+        "LINQ"
+      ],
+      "_id": "skills_3"
+    },
+    {
+      "category": "Tools & DevOps",
+      "icon": "🛠️",
+      "color": "#fbbf24",
+      "items": [
+        "Git",
+        "GitHub",
+        "Visual Studio",
+        "VS Code",
+        "Postman",
+        "IIS",
+        "npm"
+      ],
+      "_id": "skills_4"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Enterprise Dashboard",
+      "desc": "Full-stack admin dashboard built with ASP.NET Core + React. Features role-based access, real-time notifications via SignalR, and SQL Server reporting.",
+      "icon": "",
+      "tech": [
+        "ASP.NET Core",
+        "React",
+        "SQL Server",
+        "SignalR"
+      ],
+      "stars": "48",
+      "forks": "12",
+      "github": "https://github.com",
+      "live": "#",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "featured": true,
+      "_id": "projects_1"
+    },
+    {
+      "name": "E-Commerce Platform",
+      "desc": "Complete e-commerce solution with product management, cart, payment integration and order tracking. Built with Node.js backend and React frontend.",
+      "icon": "🛒",
+      "tech": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ],
+      "stars": "35",
+      "forks": "8",
+      "github": "https://github.com",
+      "live": "#",
+      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80",
+      "featured": true,
+      "_id": "projects_2"
+    },
+    {
+      "name": "Task Management System",
+      "desc": "Team task management app with drag-and-drop boards, AJAX-powered real-time updates, deadlines and progress tracking.",
+      "icon": "✅",
+      "tech": [
+        "ASP.NET MVC",
+        "C#",
+        "AJAX",
+        "jQuery",
+        "MSSQL"
+      ],
+      "stars": "22",
+      "forks": "5",
+      "github": "https://github.com",
+      "live": "#",
+      "image": "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&w=800&q=80",
+      "featured": false,
+      "_id": "projects_3"
+    },
+    {
+      "name": "Portfolio CMS",
+      "desc": "This very portfolio — a Node.js CMS with persistent JSON storage, REST API, and a separated public/admin architecture.",
+      "icon": "🌐",
+      "tech": [
+        "Node.js",
+        "Express",
+        "Vanilla JS",
+        "HTML/CSS"
+      ],
+      "stars": "15",
+      "forks": "3",
+      "github": "https://github.com",
+      "live": "#",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+      "featured": false,
+      "_id": "projects_4"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full-Stack Developer",
+      "company": "Tech Company",
+      "period": "2023 — Present",
+      "current": true,
+      "desc": "Developing enterprise web applications using ASP.NET Core C# and React. Implemented REST APIs, SQL Server database design, and responsive frontend UIs.",
+      "skills": [
+        "ASP.NET Core",
+        "C#",
+        "React",
+        "SQL Server",
+        "REST API"
+      ],
+      "_id": "experience_1"
+    },
+    {
+      "role": "Web Developer",
+      "company": "Previous Company",
+      "period": "2022 — 2023",
+      "current": false,
+      "desc": "Built dynamic web applications with ASP.NET MVC and jQuery/AJAX. Delivered client-facing dashboards and reporting modules.",
+      "skills": [
+        "ASP.NET MVC",
+        "jQuery",
+        "AJAX",
+        "MSSQL",
+        "Bootstrap"
+      ],
+      "_id": "experience_2"
+    }
+  ],
+  "contact": [
+    {
+      "label": "Email",
+      "value": "meet.parmar@email.com",
+      "icon": "✉️",
+      "href": "mailto:meet.parmar@email.com",
+      "_id": "contact_1"
+    },
+    {
+      "label": "GitHub",
+      "value": "github.com/meetparmar",
+      "icon": "🐙",
+      "href": "https://github.com",
+      "_id": "contact_2"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "linkedin.com/in/meetparmar",
+      "icon": "💼",
+      "href": "https://linkedin.com",
+      "_id": "contact_3"
+    },
+    {
+      "label": "WhatsApp",
+      "value": "+91 XXXXX XXXXX",
+      "icon": "💬",
+      "href": "#",
+      "_id": "contact_4"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology (B.Tech)",
+      "field": "Computer Engineering",
+      "institution": "Your University Name",
+      "location": "Gujarat, India",
+      "period": "2021 — 2024",
+      "grade": "CGPA: 7.5 / 10",
+      "highlights": [
+        "Full-Stack Web Development",
+        "Data Structures & Algorithms",
+        "Database Management",
+        "Software Engineering"
+      ],
+      "_id": "edu_1"
+    },
+    {
+      "degree": "Diploma in Computer Engineering",
+      "field": "Computer Engineering",
+      "institution": "Your Polytechnic Name",
+      "location": "Gujarat, India",
+      "period": "2018 — 2021",
+      "grade": "Percentage: 75%",
+      "highlights": [
+        "C / C++ Programming",
+        "Web Technologies",
+        "Database Fundamentals",
+        "Networking Basics"
+      ],
+      "_id": "edu_2"
+    }
+  ]
+}
