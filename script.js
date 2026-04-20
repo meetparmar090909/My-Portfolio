@@ -3,10 +3,11 @@ let dbData = {};
 /* ─── DATA ─── */
 async function loadData() {
   try {
-    const res = await fetch('/api/data');
+    const res = await fetch('data.json');
     if (!res.ok) throw new Error('Server error');
     dbData = await res.json();
     renderPortfolio();
+    initFilters();
     termInit();
   } catch (err) {
     console.error('Failed to load:', err);
@@ -14,13 +15,20 @@ async function loadData() {
 }
 
 /* ─── PORTFOLIO RENDER ─── */
-function renderPortfolio() {
+function renderPortfolio(filter = 'all') {
   const p = dbData.profile || {};
   const stats = dbData.stats || [];
   const skills = dbData.skills || [];
-  const projects = dbData.projects || [];
+  let projects = dbData.projects || [];
   const experience = dbData.experience || [];
   const contact = dbData.contact || [];
+
+  if (filter !== 'all') {
+    projects = projects.filter(pr => 
+      (pr.tech || []).some(t => t.toLowerCase().includes(filter.toLowerCase())) ||
+      pr.name.toLowerCase().includes(filter.toLowerCase())
+    );
+  }
 
   const setT = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
   const setH = (id, val) => { const el = document.getElementById(id); if (el) el.innerHTML = val; };
@@ -363,6 +371,17 @@ function termPrint(html) {
   line.innerHTML = html;
   body.appendChild(line);
   body.scrollTop = body.scrollHeight;
+}
+
+function initFilters() {
+  const buttons = document.querySelectorAll('.filter-btn');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderPortfolio(btn.dataset.filter);
+    });
+  });
 }
 
 function clearTerminal() {

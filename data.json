@@ -4,25 +4,25 @@
     "lastname": "Parmar",
     "title": "Full-Stack Developer",
     "bio": "I build high-performance web applications using React, Node.js, ASP.NET C# and modern JavaScript. Passionate about clean architecture, great UX and shipping products that scale.",
-    "tag": "Open to Opportunities · Available for Abroad",
+    "tag": "Open to Opportunities · Available for Hire",
     "greeting": "Hi there, I'm",
-    "resume": "#",
+    "resume": "https://drive.google.com/file/d/1fc8kjdl4lVp4iz1zLN2plbiMhPCD4UV_/view?usp=sharing",
     "github": "https://github.com",
     "_id": "profile_1"
   },
   "stats": [
     {
-      "num": "3+",
-      "label": "Years Experience",
+      "num": "6+",
+      "label": "Months Experience",
       "_id": "stats_1"
     },
     {
-      "num": "20+",
+      "num": "6+",
       "label": "Projects Delivered",
       "_id": "stats_2"
     },
     {
-      "num": "2",
+      "num": "8",
       "label": "Tech Stacks",
       "_id": "stats_3"
     },
@@ -59,8 +59,7 @@
         "ASP.NET Core",
         "C#",
         "REST APIs",
-        "MVC Architecture",
-        "SignalR"
+        "MVC Architecture"
       ],
       "_id": "skills_2"
     },
@@ -72,7 +71,6 @@
         "Microsoft SQL Server",
         "MySQL",
         "MongoDB",
-        "Entity Framework",
         "LINQ"
       ],
       "_id": "skills_3"
@@ -86,8 +84,9 @@
         "GitHub",
         "Visual Studio",
         "VS Code",
+        "claude",
+        "Antigravity",
         "Postman",
-        "IIS",
         "npm"
       ],
       "_id": "skills_4"
@@ -95,107 +94,163 @@
   ],
   "projects": [
     {
-      "name": "Enterprise Dashboard",
-      "desc": "Full-stack admin dashboard built with ASP.NET Core + React. Features role-based access, real-time notifications via SignalR, and SQL Server reporting.",
+      "name": "Virtual Mouse",
+      "desc": "Developed a Virtual Mouse system using OpenCV in Python that enables users to control the computer cursor through hand gestures. Implemented real-time hand tracking and gesture recognition to perform actions like cursor movement, clicking, and scrolling without physical hardware. Focused on accuracy, responsiveness, and user-friendly interaction.",
       "icon": "",
       "tech": [
-        "ASP.NET Core",
-        "React",
-        "SQL Server",
-        "SignalR"
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "Computer Vision"
       ],
       "stars": "48",
       "forks": "12",
       "github": "https://github.com",
       "live": "#",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.openai.com/static-rsc-4/64-pPXecq7e82iMZvuMStgrthedhluDtBMzSvxrsvSz9QlogWfmBEi0C55yy1bS3xKhfkW0gflvLAd77aFFGYTqFGf9bXBa__jwCZtUMDUgZzs3j4p7oKsUIIcvvjpnOlBUIoCGS5l9YZnYhHJOUHek1iVumKOJ_BDIZSI6ahd7Qjjt8S9HSqTEmcv-mnmbD?purpose=fullsize",
       "featured": true,
       "_id": "projects_1"
     },
     {
-      "name": "E-Commerce Platform",
-      "desc": "Complete e-commerce solution with product management, cart, payment integration and order tracking. Built with Node.js backend and React frontend.",
+      "name": "Volume Control system",
+      "desc": "Developed a gesture-based volume control system using Python and OpenCV that allows users to adjust system volume through hand gestures. The application uses real-time hand tracking to measure finger distance and map it dynamically to volume levels, enabling a touchless and intuitive user experience.",
       "icon": "🛒",
       "tech": [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB"
+        "Python",
+        "OpenCV",
+        "MediaPipe",
+        "Pycaw"
       ],
       "stars": "35",
       "forks": "8",
       "github": "https://github.com",
       "live": "#",
-      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.openai.com/static-rsc-4/kSATTB155xpfXnUd4dDkBsuHLLsBkpEAJ863FLLS_kNTbc-3L5OZMlR19oV569WdSuuH3gzu3KNaqmyuSTYTxI6WYFwqFworPR0FEzi88REbWgu-H6YFjUD9H0PSnqKBvdEZ5J22MHxa3FcfnqMBIoAZfOCLfWVfC57mcHgR0baa0OK6OUzUCECTGQJNERjW?purpose=fullsize",
       "featured": true,
       "_id": "projects_2"
     },
     {
-      "name": "Task Management System",
-      "desc": "Team task management app with drag-and-drop boards, AJAX-powered real-time updates, deadlines and progress tracking.",
+      "name": "TGesture-Based Website Launcher",
+      "desc": "Developed a gesture-controlled website launcher using Python and OpenCV that allows users to open different websites based on hand gestures. The system detects the number of fingers shown via real-time hand tracking and maps each gesture (1 to 5 fingers) to a specific website, enabling fast and touchless navigation.",
       "icon": "✅",
       "tech": [
-        "ASP.NET MVC",
-        "C#",
-        "AJAX",
-        "jQuery",
-        "MSSQL"
+        "Python",
+        "OpenCV",
+        "MediaPipe"
       ],
       "stars": "22",
       "forks": "5",
       "github": "https://github.com",
       "live": "#",
-      "image": "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?auto=format&fit=crop&w=800&q=80",
+      "image": "https://images.openai.com/static-rsc-4/bl7WzDkEzOuhwd4DTFeUc1M0N5JObrjNDHRphEEi4Q7HAIxmp6Uu5RgqJBrrNcyDeyGlqeifScbExkS_WXFcb1UepQEFYN80q28ZtrYkiSmqhRwlpKW-avdF2k7v1_gYnc2eHd-7IImHeVElC3j75l-LqNU-koc5EmO-GU9FmfBnovZKzv5hejYBEQSk78nC?purpose=fullsize",
       "featured": false,
       "_id": "projects_3"
     },
     {
-      "name": "Portfolio CMS",
-      "desc": "This very portfolio — a Node.js CMS with persistent JSON storage, REST API, and a separated public/admin architecture.",
+      "name": "AI World – AI Gesture Projects Hub",
+      "desc": "This website is developed using ASP.NET, AJAX, C#, and jQuery, showcasing a collection of AI-based computer vision projects. It provides downloadable resources and demos for systems like Virtual Mouse, Gesture Volume Control, and Gesture-Based Website Launcher, built using Python and OpenCV. The platform ensures smooth and dynamic user interaction through AJAX-based functionality.",
       "icon": "🌐",
       "tech": [
-        "Node.js",
-        "Express",
-        "Vanilla JS",
-        "HTML/CSS"
+        "ASP.NET",
+        "C#",
+        "AJAX",
+        "JQ"
       ],
       "stars": "15",
       "forks": "3",
       "github": "https://github.com",
       "live": "#",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+      "image": "https://i.postimg.cc/fZ2G9wyv/Image-17-04-26-at-2-30-PM.png",
       "featured": false,
       "_id": "projects_4"
+    },
+    {
+      "name": "WhatsApp Billing Automation System using Node.js",
+      "desc": "> Developed a WhatsApp Web automation system using Node.js, HTML, and CSS with a polling mechanism and SQLite database integration. The system continuously monitors billing data from the SQLite database and automatically triggers WhatsApp message generation when a new bill is created. It enables sending invoices directly to customers via WhatsApp with pre-filled messages, improving efficiency, reducing manual work, and enhancing real-time customer communication.",
+      "icon": "",
+      "tech": [
+        "NODE.JS",
+        "HTML",
+        "CSS",
+        "SQLITE"
+      ],
+      "stars": "",
+      "forks": "",
+      "github": "https://github.com",
+      "live": "#",
+      "image": "https://i.postimg.cc/ZK25spJz/Screenshot-2026-04-11-at-8-25-14-AM.png",
+      "featured": false,
+      "_id": "projects_1776418605260"
+    },
+    {
+      "name": "Dynamic Shoe E-Commerce Website using ASP.NET, C#, and AJAX",
+      "desc": "Developed a shoe marketing website using HTML, CSS, JavaScript, ASP.NET, C#, and AJAX with a dynamic and responsive UI similar to Nike’s website.",
+      "icon": "💡",
+      "tech": [
+        "ASP.NET",
+        "C#",
+        "AJAX",
+        "JQ",
+        "MSSQL"
+      ],
+      "stars": "0",
+      "forks": "0",
+      "github": "#",
+      "live": "#",
+      "image": "https://i.postimg.cc/NjxJd7cv/Screenshot-2026-04-17-at-3-19-33-PM.png",
+      "featured": false,
+      "_id": "projects_1776419486843"
+    },
+    {
+      "name": "Expense Tracker — Personal Finance Management App",
+      "desc": "A full-stack expense tracking application with Google OAuth authentication. Track, manage, and monitor your personal finances with a clean and intuitive interface.",
+      "icon": "",
+      "tech": [
+        "React + Vite",
+        " TypeScript ",
+        "CSS Google Identity Services (OAuth login via VITE_GOOGLE_CLIENT_ID)",
+        "Node.js",
+        "TypeScript",
+        "Google OAuth verification (GOOGLE_CLIENT_ID)",
+        "REST API (documented in API_EXAMPLES.md)"
+      ],
+      "stars": "",
+      "forks": "",
+      "github": "https://github.com/meetparmar090909/Expense-Tracker",
+      "live": "#",
+      "image": "https://i.postimg.cc/zBYmn5m5/Screenshot-2026-04-19-at-8-19-46-PM.png",
+      "featured": false,
+      "_id": "projects_1776610114911"
     }
   ],
   "experience": [
     {
-      "role": "Full-Stack Developer",
-      "company": "Tech Company",
-      "period": "2023 — Present",
-      "current": true,
-      "desc": "Developing enterprise web applications using ASP.NET Core C# and React. Implemented REST APIs, SQL Server database design, and responsive frontend UIs.",
+      "role": "Artificial Intelligence",
+      "company": "IBM",
+      "period": "2025 JUNE - 2025 JULY",
+      "current": false,
+      "desc": "Developed an AI chatbot using the Gemini API, enabling real-time, context-aware conversations. Integrated API endpoints, optimized prompt design, and enhanced response quality for better user interaction.",
       "skills": [
-        "ASP.NET Core",
-        "C#",
-        "React",
-        "SQL Server",
-        "REST API"
+        "AI",
+        "Vibe Coding/Prompt Engineering",
+        "API Integration",
+        "Natural Language Processing (NLP)"
       ],
       "_id": "experience_1"
     },
     {
-      "role": "Web Developer",
-      "company": "Previous Company",
-      "period": "2022 — 2023",
+      "role": "Web/Software Developer",
+      "company": "INFOSOFT",
+      "period": "2026 JANUARY - 2026 MARCH",
       "current": false,
-      "desc": "Built dynamic web applications with ASP.NET MVC and jQuery/AJAX. Delivered client-facing dashboards and reporting modules.",
+      "desc": "Developed a WhatsApp automation system using Node.js and integrated it into the billing software, enabling automatic sending of bills to customers via WhatsApp with a print and send option.",
       "skills": [
+        "NODE.JS",
         "ASP.NET MVC",
         "jQuery",
         "AJAX",
         "MSSQL",
-        "Bootstrap"
+        "MAUI-BLAZOR HYBRID"
       ],
       "_id": "experience_2"
     }
@@ -203,9 +258,9 @@
   "contact": [
     {
       "label": "Email",
-      "value": "meet.parmar@email.com",
+      "value": "meetparmar090909@email.com",
       "icon": "✉️",
-      "href": "mailto:meet.parmar@email.com",
+      "href": "meetparmar090909@email.com",
       "_id": "contact_1"
     },
     {
@@ -224,20 +279,20 @@
     },
     {
       "label": "WhatsApp",
-      "value": "+91 XXXXX XXXXX",
+      "value": "+91 9714429081",
       "icon": "💬",
-      "href": "#",
+      "href": "https://web.whatsapp.com/send?phone=919714429081",
       "_id": "contact_4"
     }
   ],
   "education": [
     {
-      "degree": "Bachelor of Technology (B.Tech)",
+      "degree": "Bachelor of Engineering (B.E)",
       "field": "Computer Engineering",
-      "institution": "Your University Name",
-      "location": "Gujarat, India",
-      "period": "2021 — 2024",
-      "grade": "CGPA: 7.5 / 10",
+      "institution": "SVIT - VASAD (GTU)",
+      "location": "Gujarat,India",
+      "period": "2023 — 2026",
+      "grade": "CGPA: 7.89 / 10",
       "highlights": [
         "Full-Stack Web Development",
         "Data Structures & Algorithms",
@@ -247,17 +302,18 @@
       "_id": "edu_1"
     },
     {
-      "degree": "Diploma in Computer Engineering",
+      "degree": "Diploma",
       "field": "Computer Engineering",
-      "institution": "Your Polytechnic Name",
+      "institution": "Sigma Institute - Vadodra (GTU)",
       "location": "Gujarat, India",
-      "period": "2018 — 2021",
-      "grade": "Percentage: 75%",
+      "period": "2020 — 2023",
+      "grade": "CGPA: 8.86 / 10",
       "highlights": [
-        "C / C++ Programming",
-        "Web Technologies",
-        "Database Fundamentals",
-        "Networking Basics"
+        "JAVA",
+        "WEB DEVELOPMENT",
+        "DATA STRUCTURE",
+        "DBMS",
+        "ANDROID DEVELOPMENT"
       ],
       "_id": "edu_2"
     }
